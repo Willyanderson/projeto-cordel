@@ -16,6 +16,7 @@ html, body {
 
 body {
     margin: 0px;
+    max-width: 650px;
 }
 
 header {
