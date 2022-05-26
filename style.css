@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font1: 'Passion One', cursive;
+    --font2: 'Caveat', cursive;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 70px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
+}
+
+header h1 {
+    margin: 2px;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 75px;
+    font-variant: small-caps;
+}
+
+header p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 150px 0px 150px 25px;
+    box-shadow: 1px 1px 8px #0000004b;
+}
+
+section > p {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    margin: 0px;
+    font-weight: normal;
+    width: 410px;
+}
+
+section > p.t1 {
+    color: white;
+    background-color: #00000088;
+    box-shadow: 1px 1px 8px #000000b4;
+    padding: 10px;
+    margin: 0px;
+    max-width: 650px;
+}
+
+section > p.ql {
+    padding: 100px 0px 0px 0px;
+}
+
+section.tr1 {
+    background-image: url(imagens/background001.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px #00000062;
+}
+
+section.tr2 {
+    background-image: url(imagens/background002.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px #00000062;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 3px;
+}
